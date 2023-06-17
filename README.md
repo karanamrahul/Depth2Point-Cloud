@@ -1,14 +1,17 @@
 # VICI-Challenge
 
+# Depth Image to Point Cloud Conversion
+
+This ROS2 package converts depth frames from a ROSbag file into point cloud frames and transmits them as ROS messages. The converted point cloud frames can be visualized using ROS2 Rviz.
 
 #### Tasks
 
-* [TODO] Create a ROS2 Node (C++) to convert raw depth frames to point cloud data.
-* [TODO] A pipeline operating at 50 frames per second
-* [TODO] Create a ROSbag of the point cloud messages generated from your ROS2 node.
-* [TODO] Use ROS2 Rviz/ to create a live visualization of the point cloud. 
-* [TODO] Create a video to demonstrate the pipeline
 
+- [ ] Optimize the conversion algorithm for a pipeline operating at 50 frames per second.
+- [ ] Implement the ROS2 node in C++.
+- [ ] Create a ROSBag of the generated point cloud messages.
+- [ ] Record a short video demonstrating the point cloud visualization in Rviz.
+- [ ] Update the README with detailed instructions on setting up and using the package.
 
 #### Data
 
