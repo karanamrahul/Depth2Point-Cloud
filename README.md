@@ -33,7 +33,7 @@ The pipeline relies on the following ROS packages and libraries:
 - **OpenCV**: Open-source computer vision library.
 - **pcl**: Point Cloud Library for handling point cloud data.
 - **pcl_conversions**: ROS package for converting between PCL and ROS data types.
-- **pcl_io**: PCL package for reading/writing point cloud data from/to PCD files.
+- **pcl_io**: PCL package for reading/writing point cldepthout.mp4oud data from/to PCD files.
 
 ## Pipeline Steps
 * Initialize the ROS 2 communication.
@@ -76,11 +76,11 @@ For this demo I have used Foxglove Studio to demonstrate the performance.
 
 ### Input Dataset - Depth Map 
 
-
+[![Video](https://github.com/karanamrahul/VICI-Robotics-Challenge/blob/main/demo/depth_frame_4.png)](demo/depthout.mp4)
 ### Output Point Cloud data
-
+[![Video](https://github.com/karanamrahul/VICI-Robotics-Challenge/blob/main/demo/pointcloud_frame1.png)](demo/pcdout.mp4)
 
 ### Output Point Cloud data analysis
-
+[![Video](https://github.com/karanamrahul/VICI-Robotics-Challenge/blob/main/demo/pointcloud_frame1.png)](demo/pcd_out2.mp4)
 
 ## Usage [TODO]
