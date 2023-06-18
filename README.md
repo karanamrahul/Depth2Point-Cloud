@@ -44,7 +44,7 @@ The pipeline relies on the following ROS packages and libraries:
 * When a depth image is received in the callback function:
 
   - Convert the ROS Image message to an OpenCV image using the **cv_bridge package**.
-  - Convert the **Uint8 array** to **16-bit** depth values to ensure accurate representation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.
+  - Convert the **Uint8 array** to **16-bit** depth values to ensure accurate representation.
   - Create a new point cloud object using the PCL library.
 * Iterate over each pixel in the depth image:
   - Retrieve the depth value.
@@ -64,11 +64,11 @@ The pipeline relies on the following ROS packages and libraries:
 
 For visualizing the generated point cloud, various tools can be used, such as:
 
-- Rviz: Rviz is a powerful ROS visualization tool that allows you to visualize the point cloud data in a 3D environment. It provides features like interactive manipulation, changing viewpoints, and overlaying additional information.
+- **Rviz**: Rviz is a powerful ROS visualization tool that allows you to visualize the point cloud data in a 3D environment. It provides features like interactive manipulation, changing viewpoints, and overlaying additional information.
 
-- PCL Visualizer: The Point Cloud Library (PCL) provides a built-in visualization tool called PCL Visualizer. It offers a user-friendly interface to visualize and interact with point clouds, allowing you to explore the data from different angles and apply various visual effects.
+- **PCL Visualizer**: The Point Cloud Library (PCL) provides a built-in visualization tool called PCL Visualizer. It offers a user-friendly interface to visualize and interact with point clouds, allowing you to explore the data from different angles and apply various visual effects.
 
-- Foxglove Studio: Foxglove Studio is a comprehensive ROS visualization tool with additional analysis capabilities. It offers features like FPS monitoring, point cloud analysis tools, and other advanced functionalities that can be helpful for in-depth analysis and debugging.
+- **Foxglove Studio**: Foxglove Studio is a comprehensive ROS visualization tool with additional analysis capabilities. It offers features like FPS monitoring, point cloud analysis tools, and other advanced functionalities that can be helpful for in-depth analysis and debugging.
 
 Choose the visualization tool that best suits your needs and preferences. These tools enable you to explore and analyze the generated point cloud, providing valuable insights for further processing and understanding of the data.
 
