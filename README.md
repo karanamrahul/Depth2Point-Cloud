@@ -74,13 +74,13 @@ Choose the visualization tool that best suits your needs and preferences. These 
 
 For this demo I have used Foxglove Studio to demonstrate the performance.
 
-### Input Dataset - Depth Map 
+### [Input Dataset - Depth Map](https://drive.google.com/file/d/1N0egiUlc-nIq8vDBIbeSdbcGghg6Pk-x/view?usp=drive_link)
 
 [![Video](https://github.com/karanamrahul/VICI-Robotics-Challenge/blob/main/demo/depth_frame_4.png)](demo/depthout.mp4)
-### Output Point Cloud data
+### [Output Point Cloud data](https://drive.google.com/file/d/1WZNBw3JCMyLUrRG0MFBoD1zdIdmyoaVD/view?usp=sharing)
 [![Video](https://github.com/karanamrahul/VICI-Robotics-Challenge/blob/main/demo/pointcloud_frame1.png)](demo/pcdout.mp4)
 
-### Output Point Cloud data analysis
-[![Video](https://github.com/karanamrahul/VICI-Robotics-Challenge/blob/main/demo/pointcloud_frame1.png)](demo/pcd_out2.mp4)
+### [Output Point Cloud data analysis](https://drive.google.com/file/d/1tG1eK4wGA_bhyj55AngmyTGKypO_uTwH/view?usp=drive_link)
+
 
 ## Usage [TODO]
