@@ -26,21 +26,18 @@ include_directories(${EIGEN3_INCLUDE_DIRS})
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
-# find_package(VTK REQUIRED)
-# include_directories(${VTK_INCLUDE_DIRS})
-# link_directories(${VTK_LIBRARY_DIRS})
+find_package(OpenMP REQUIRED)
 
-
-
-
+include_directories($(OpenMP INCLUDE_DIRS))
+link_directories($(OpenMP LIBRARY_DIRS))
 
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${OpenCV_LIBRARY_DIRS})
 
 add_executable(depth_visualizer_node src/depth2pcl.cpp)
-ament_target_dependencies(depth_visualizer_node rclcpp std_msgs rosbag2_cpp sensor_msgs ament_index_cpp rosbag2_storage OpenCV cv_bridge PCL Eigen3)
-target_link_libraries(depth_visualizer_node ${OpenCV_LIBRARIES} ${PCL_LIBRARIES} )
+ament_target_dependencies(depth_visualizer_node rclcpp std_msgs rosbag2_cpp sensor_msgs ament_index_cpp rosbag2_storage OpenCV cv_bridge PCL Eigen3 OpenMP)
+target_link_libraries(depth_visualizer_node ${OpenCV_LIBRARIES} ${PCL_LIBRARIES}  OpenMP::OpenMP_CXX)
 
 install(TARGETS
   depth_visualizer_node
