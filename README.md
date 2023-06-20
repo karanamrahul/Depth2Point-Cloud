@@ -11,8 +11,9 @@ This ROS2 package converts depth frames from a ROSbag file into point cloud fram
 - [x] Implement the ROS2 node in C++.
 - [x] Create a ROSBag of the generated point cloud messages.
 - [x] Record a short video demonstrating the point cloud visualization in Rviz.
-- [ ] Optimize the conversion algorithm for a pipeline operating at 50 frames per second.
+- [x] Optimize the conversion algorithm for a pipeline operating at 50 frames per second.
 - [ ] Update the README with detailed instructions on setting up and using the package.
+- [ ] Perform code profiling using valgrind and analyze the performance of the pipeline.
 
 #### Data
 
@@ -83,4 +84,15 @@ For this demo I have used Foxglove Studio to demonstrate the performance.
 ### [Output Point Cloud data analysis Video](https://drive.google.com/file/d/1tG1eK4wGA_bhyj55AngmyTGKypO_uTwH/view?usp=drive_link)
 
 
-## Usage [TODO]
+## Optimization using OpenMP 
+
+This document presents an analysis of the optimization techniques applied to a ROS 2 node that performs depth frame to point cloud conversion. The goal is to improve the frame rate (FPS) for the point cloud messages. The optimization technique used is OpenMP parallelization.
+
+[Document Link](https://docs.google.com/document/d/1PMuWl9hafJ8_Ibv0K02T7-39jAyNamREKJ0xnSRZ3jQ/edit?usp=drive_link)
+
+### [Rviz Output Data Video](https://drive.google.com/file/d/1GWhFhrDLZqJlGscDWFauQlitZwXaPMnq/view?usp=drive_link)
+
+
+
+
+
