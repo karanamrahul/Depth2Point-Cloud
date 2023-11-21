@@ -1,4 +1,3 @@
-# VICI-Challenge
 
 # Depth Image to Point Cloud Conversion
 
